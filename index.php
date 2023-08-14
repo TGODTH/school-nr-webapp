@@ -9,12 +9,12 @@
 </head>
 
 <body>
-  <?php require_once '/components/nav.php'; ?>
+  <?php require_once './components/nav.php'; ?>
 
   <?php
   $host = 'db';
-  $user = 'root';
-  $pass = 'root';
+  $user = 'user';
+  $pass = '1234';
   $db = 'SCHOOL_NR_DB';
 
   $conn = new mysqli($host, $user, $pass, $db);
